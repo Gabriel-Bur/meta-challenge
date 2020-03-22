@@ -12,11 +12,5 @@ namespace meta.challengeWebApi.Context
         {
             this.Database.EnsureCreated();
         }
-
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Contato>().ToTable("Contato");
-        }
-
     }
 }
