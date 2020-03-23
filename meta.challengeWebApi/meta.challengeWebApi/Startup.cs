@@ -76,7 +76,7 @@ namespace meta.challengeWebApi
                 s.ShowExtensions();
             });
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseRouting();
             app.UseAuthorization();
 
